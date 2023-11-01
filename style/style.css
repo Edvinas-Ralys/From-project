@@ -10,9 +10,6 @@ body{
     text-align: center;
     /* border: 3px solid purple; */
 }
-.logo{
-    overflow: hidden;
-}
 .info{
     width: 55vw;
     height: 85vh;
@@ -78,7 +75,7 @@ h1{
     font-size: 1.5rem;
     border: 1px solid rgba(0, 0, 0, 0.443);
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 6vh;
     height: 35vh;
     display: flex;
     flex-wrap: wrap;
@@ -89,16 +86,19 @@ h1{
     background-color: rgba(255, 255, 255, 0.564);
     box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
     align-items: center;
+    overflow: auto;
 }
 .input{
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 16vw;
+    width: 240px;
     height: 7vh;
     flex-shrink: 1;
     justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .input > *{
     margin-top: auto;
@@ -132,7 +132,7 @@ button{
     height: 40px;
     width: 180px;
     border-radius: 12px;
-    background-color:rgba(64, 119, 119, 0.561);
+    background-color:rgb(79, 181, 181);
     border: 1px;
     box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
 }
