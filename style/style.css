@@ -1,7 +1,6 @@
 body{
     margin:0px;
     display: flex;
-    overflow: hidden;
 }
 .logo, .info{
     width: 30vw;
@@ -10,6 +9,9 @@ body{
     position: relative;
     text-align: center;
     /* border: 3px solid purple; */
+}
+.logo{
+    overflow: hidden;
 }
 .info{
     width: 70vw;
@@ -59,18 +61,82 @@ h1{
     font-size:1.5rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vh;
+    margin-top: 10%;
     text-align: left;
     font-weight: 550;
     font-family: Courier;
 }
-.info > .signin_form{
+.signin_form{
     font-family: Courier;
-    border: 2px solid black;
-    height: 150px;
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.443);
+    border-radius: 10px;
+    margin-top: 80px;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.58);
+    box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
 }
-input, label{
-    display: block;
-    text-align: left;
-    margin-top: 5px;
+.signin_form > .input{
+    width: 25vw;
+    height: 9vh;
+    flex-shrink: 1;
+}
+.input{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.input > *{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+input{
+    width: 15vw;
+    height: 2.5vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid rgba(38, 204, 204, 0.236);
+    border-radius: 5px ;
+    font-family: Courier;
+}
+button{
+    font-family: Courier;
+    font-size: medium;
+    font-weight: 900;
+    margin-top: 50px;
+    align-items: end;
+    height: 40px;
+    width: 180px;
+    border-radius: 12px;
+    background-color:rgba(64, 119, 119, 0.561);
+    border: 1px;
+    box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
+}
+button:hover{
+    background-color:rgba(38, 204, 204, 0.236);
+}
+.log_in{
+    font-family: Courier;
+    font-size: 15px;
+    /* border: 1px solid black; */
+    width: 200px;
+    margin-left: auto;
+    margin-right:auto ;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.log_in:hover{
+   text-decoration: underline; 
+   
 }
