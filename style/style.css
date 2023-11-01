@@ -107,6 +107,11 @@ input{
     border-radius: 5px ;
     font-family: Courier;
 }
+input:focus{
+    box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
+    border:3px solid rgba(38, 204, 204, 0.236);
+    outline-width: 0;
+}
 button{
     font-family: Courier;
     font-size: medium;
