@@ -23,29 +23,35 @@
         </div>
     <form action="example.com/path" method="post">
         <div class="signin_form">
-            <div class="input first_name">
-                <label for="first_name">First name</label>
-                <input type="text" name="first_name" id="first_name" placeholder="John" required>
+            <div class="first_row">
+                <div class="input first_name">
+                    <label for="first_name">First name</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="John" required>
+                </div>
+                <div class="input last_name">
+                    <label for="last_name">Last name</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Doe"required>
+                </div>
             </div>
-            <div class="input last_name">
-                <label for="last_name">Last name</label>
-                <input type="text" name="last_name" id="last_name" placeholder="Doe"required>
+            <div class="second_row">
+                <div class="input email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com"required>
+                </div>
+                <div class="input phone_number">
+                    <label for="phone_number">Phone number</label>
+                    <input pattern="(/+3706/)" type="number" name="phone_number" id="phone_number"required placeholder="+37060000000">
+                </div>
             </div>
-            <div class="input email">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="example@email.com"required>
-            </div>
-            <div class="input phone_number">
-                <label for="phone_number">Phone number</label>
-                <input pattern="(/+3706/)" type="number" name="phone_number" id="phone_number"required placeholder="+37060000000">
-            </div>
-            <div class="input password">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password"required>
-            </div>
-            <div class="input repeat_password">
-                <label for="repeat_password">Repeat password</label>
-                <input type="password" name="repeat_password" id="repeat_password"required>
+            <div class="third_row">
+                <div class="input password">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password"required>
+                </div>
+                <div class="input repeat_password">
+                    <label for="repeat_password">Repeat password</label>
+                    <input type="password" name="repeat_password" id="repeat_password"required>
+                </div>
             </div>
         </div>
         <button type="submit">Create Account</button>
