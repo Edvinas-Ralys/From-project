@@ -63,13 +63,15 @@ h1{
 .info > .top_text{
     /* border: 2px solid black; */
     width: 50vw;
-    font-size:1.5rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 6%;
     text-align: left;
     font-weight: 550;
     font-family: Courier;
+}
+.top_text> *{
+    font-size:1.5vw;
 }
 .signin_form{
     font-family: Courier;
@@ -80,12 +82,13 @@ h1{
     height: 35vh;
     display: flex;
     flex-wrap: wrap;
-    width: 45vw;
+    width: 35vw;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.564);
     box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
+    align-items: center;
 }
 .input{
     /* border: 1px solid black; */
@@ -93,14 +96,16 @@ h1{
     flex-direction: column;
     text-align: center;
     width: 16vw;
-    height: 9vh;
+    height: 7vh;
     flex-shrink: 1;
+    justify-content: space-evenly;
 }
 .input > *{
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 900;
     color: rgba(4, 44, 74, 0.853);
+    flex:1
 }
 input{
     width: 12vw;
