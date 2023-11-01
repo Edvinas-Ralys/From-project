@@ -14,13 +14,20 @@ body{
     overflow: hidden;
 }
 .info{
-    width: 70vw;
+    width: 55vw;
+    height: 85vh;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
     /* border:3px solid green */
+    background-color: rgba(111, 178, 205, 0.548);
+    box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
 }
 .logo_img{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    position: absolute;
 }
 .logo_title{
     display: flex;
@@ -52,12 +59,10 @@ h1{
     margin-bottom: auto;
     font-size: 3vh;
 }
-.info{
-    background-color: rgba(111, 179, 205, 0.327);
-}
+
 .info > .top_text{
     /* border: 2px solid black; */
-    width: 60vw;
+    width: 50vw;
     font-size:1.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -75,41 +80,42 @@ h1{
     height: 35vh;
     display: flex;
     flex-wrap: wrap;
-    width: 60vw;
+    width: 45vw;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
-    background-color: rgba(255, 255, 255, 0.58);
+    background-color: rgba(255, 255, 255, 0.564);
     box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
-}
-.signin_form > .input{
-    width: 25vw;
-    height: 9vh;
-    flex-shrink: 1;
 }
 .input{
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 16vw;
+    height: 9vh;
+    flex-shrink: 1;
 }
 .input > *{
     margin-top: auto;
     margin-bottom: auto;
+    font-weight: 900;
+    color: rgba(4, 44, 74, 0.853);
 }
 input{
-    width: 15vw;
+    width: 12vw;
     height: 2.5vh;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border:3px solid rgba(38, 204, 204, 0.236);
+    border:2px solid rgb(16, 85, 85);
     border-radius: 5px ;
     font-family: Courier;
+    background-color: rgba(135, 147, 175, 0.41);
 }
 input:focus{
     box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
-    border:3px solid rgba(38, 204, 204, 0.236);
+    border:2px solid rgba(38, 204, 204, 0.236);
     outline-width: 0;
 }
 button{
@@ -126,7 +132,7 @@ button{
     box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
 }
 button:hover{
-    background-color:rgba(38, 204, 204, 0.236);
+    background-color:rgb(38, 204, 204);
 }
 .log_in{
     font-family: Courier;
