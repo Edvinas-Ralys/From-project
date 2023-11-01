@@ -3,7 +3,7 @@ body{
     display: flex;
 }
 .logo, .info{
-    width: 30vw;
+    width: 25vw;
     height: 100vh;
     margin:0px;
     position: relative;
@@ -19,6 +19,7 @@ body{
     /* border:3px solid green */
     background-color: rgba(111, 178, 205, 0.548);
     box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
+    background-image: linear-gradient(transparent, #000000cf);
 }
 .logo_img{
     object-fit: cover;
@@ -72,9 +73,9 @@ h1{
 }
 .signin_form{
     font-family: Courier;
-    font-size: 1.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.443);
-    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.206);
+    border-radius: 0.5rem;
     margin-top: 6vh;
     height: 35vh;
     display: flex;
@@ -83,7 +84,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
-    background-color: rgba(255, 255, 255, 0.564);
+    background-color: rgba(203, 212, 240, 0.204);
     box-shadow: 5px 5px 5px 5px rgba(33, 28, 28, 0.407);
     align-items: center;
     overflow: auto;
@@ -97,14 +98,14 @@ h1{
     height: 7vh;
     flex-shrink: 1;
     justify-content: space-evenly;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
 }
 .input > *{
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 900;
-    color: rgba(4, 44, 74, 0.853);
+    color: rgb(0, 0, 0);
     flex:1
 }
 input{
@@ -113,25 +114,26 @@ input{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border:2px solid rgb(16, 85, 85);
+    border:2px solid rgba(29, 232, 232, 0.438);
     border-radius: 5px ;
     font-family: Courier;
     background-color: rgba(135, 147, 175, 0.41);
+    font-size: 1.4vh;
 }
 input:focus{
     box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
-    border:2px solid rgba(38, 204, 204, 0.236);
+    border:2px solid rgb(16, 85, 85);
     outline-width: 0;
 }
 button{
     font-family: Courier;
-    font-size: medium;
+    font-size: 2vh;
     font-weight: 900;
-    margin-top: 50px;
+    margin-top: 4vh;
     align-items: end;
-    height: 40px;
-    width: 180px;
-    border-radius: 12px;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 2rem;
     background-color:rgb(79, 181, 181);
     border: 1px;
     box-shadow: 2px 2px 2px 2px rgba(33, 28, 28, 0.407);
@@ -141,9 +143,10 @@ button:hover{
 }
 .log_in{
     font-family: Courier;
-    font-size: 15px;
+    font-size: 1.4vh;
     /* border: 1px solid black; */
-    width: 200px;
+    width: 12vw;
+    color: rgb(79, 181, 181);
     margin-left: auto;
     margin-right:auto ;
     -webkit-user-select: none;
@@ -154,5 +157,9 @@ button:hover{
 }
 .log_in:hover{
    text-decoration: underline; 
-   
+}
+
+::placeholder{
+    font-size: 1.7vh;
+    color: rgba(0, 0, 0, 0.46);
 }
