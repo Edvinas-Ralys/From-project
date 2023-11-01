@@ -26,6 +26,7 @@ body{
     align-items: baseline;
     object-fit: cover;
     position: absolute;
+    height: 15%;
     width: 100%;
     top:30%;
     left: 0%;
@@ -34,8 +35,42 @@ body{
     color: rgb(255, 255, 255);
 }
 .brand{
-    height: 50px;
+    height: 8vh;
+    width: auto;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 15px;
+    margin-right: 1vw;
+    max-zoom: 100%;
+}
+h1{
+    font-family: garamond;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 3vh;
+}
+.info{
+    background-color: rgba(111, 179, 205, 0.327);
+}
+.info > .top_text{
+    /* border: 2px solid black; */
+    width: 60vw;
+    font-size:1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    text-align: left;
+    font-weight: 550;
+    font-family: Courier;
+}
+.info > .signin_form{
+    font-family: Courier;
+    border: 2px solid black;
+    height: 150px;
+}
+input, label{
+    display: block;
+    text-align: left;
+    margin-top: 5px;
 }
